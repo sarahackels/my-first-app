@@ -16,6 +16,14 @@ Create and activate a virstual environemenmt:
     conda activate my-first-env
 ``` 
 
+Obtain an API Key from Alphavantage (https://www.alphavantage.co/support/#api-key) or from the professor ('ALPHAVANTAGE_API_KEY')
+
+create a ".env" file and paste in the following contents:
+
+```sh
+    ALPHAVANTAGE_API_KEY="______"
+```
+
 
 ## Usage
 
