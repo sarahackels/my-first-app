@@ -18,10 +18,14 @@ Create and activate a virstual environemenmt:
 
 Obtain an API Key from Alphavantage (https://www.alphavantage.co/support/#api-key) or from the professor ('ALPHAVANTAGE_API_KEY')
 
+You must first follow the [setup instructions](https://github.com/prof-rossetti/intro-to-python/blob/main/notes/python/packages/sendgrid.md) to create an account, verify your account, setup a single sender, and obtain an API Key.
+
 create a ".env" file and paste in the following contents:
 
 ```sh
     ALPHAVANTAGE_API_KEY="______"
+    SENDGRID_API_KEY="_________"
+    SENDER_ADDRESS="name@gmail.com"
 ```
 
 
