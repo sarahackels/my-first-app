@@ -41,3 +41,7 @@ Run the unemployment report:
     python app/unemployment.py
 ```
 
+Send an example email:
+```sh
+    python app/email_service.py
+```
