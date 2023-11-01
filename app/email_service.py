@@ -36,12 +36,15 @@ def send_email(recipient_address=SENDER_ADDRESS, subject="[Shopping Cart App] Te
 
 
 
+user_address = input("Enter your email address: ")
+
+
 my_content = """
 
     <img
         src="https://img.freepik.com/free-vector/flat-ice-cream-collection_23-2148982427.jpg"
         alt="image of an ice cream"
-        height=100
+        height=1000
     >
 
     <h1>Ice Cream Shop Menu</h1>
@@ -54,4 +57,4 @@ my_content = """
         <li>Strawberry</li>
     </ul>
 """
-send_email(html_content=my_content)
+send_email(html_content=my_content,recipient_address=user_address)
