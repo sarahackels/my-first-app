@@ -35,26 +35,33 @@ def send_email(recipient_address=SENDER_ADDRESS, subject="[Shopping Cart App] Te
         print(err)
 
 
+## only want to do if running this file from command line 
+## but not if importing a function from this file
 
-user_address = input("Enter your email address: ")
+## any code that you don't want to be imported but you want to run
+## if you are running it from command line then it will work
+
+if __name__ == "__main__":
+
+    user_address = input("Enter your email address: ")
 
 
-my_content = """
+    my_content = """
 
-    <img
-        src="https://img.freepik.com/free-vector/flat-ice-cream-collection_23-2148982427.jpg"
-        alt="image of an ice cream"
-        height=100
-    >
+        <img
+            src="https://img.freepik.com/free-vector/flat-ice-cream-collection_23-2148982427.jpg"
+            alt="image of an ice cream"
+            height=100
+        >
 
-    <h1>Ice Cream Shop Menu</h1>
+        <h1>Ice Cream Shop Menu</h1>
 
-    <p>Most popular flavors:</p>
+        <p>Most popular flavors:</p>
 
-    <ul>
-        <li>Vanilla Bean </li>
-        <li>Choc </li>
-        <li>Strawberry</li>
-    </ul>
-"""
-send_email(html_content=my_content,recipient_address=user_address)
+        <ul>
+            <li>Vanilla Bean </li>
+            <li>Choc </li>
+            <li>Strawberry</li>
+        </ul>
+    """
+    send_email(html_content=my_content,recipient_address=user_address)
