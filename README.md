@@ -1,7 +1,7 @@
 # my-first-app
-my first app in opan 2023
+My first app in opan 2023
 
-install packages:
+Install packages:
 ```sh
     pip install -r requirements.txt
 ```
@@ -20,7 +20,7 @@ Obtain an API Key from Alphavantage (https://www.alphavantage.co/support/#api-ke
 
 You must first follow the [setup instructions](https://github.com/prof-rossetti/intro-to-python/blob/main/notes/python/packages/sendgrid.md) to create an account, verify your account, setup a single sender, and obtain an API Key.
 
-create a ".env" file and paste in the following contents:
+Create a ".env" file and paste in the following contents:
 
 ```sh
     ALPHAVANTAGE_API_KEY="______"
@@ -38,7 +38,7 @@ Run the example script:
 
 Run the unemployment report:
 ```sh
-    python app/unemployment.py
+    python -m app.unemployment
 ```
 
 Send an example email:
