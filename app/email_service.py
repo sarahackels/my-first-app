@@ -44,7 +44,7 @@ my_content = """
     <img
         src="https://img.freepik.com/free-vector/flat-ice-cream-collection_23-2148982427.jpg"
         alt="image of an ice cream"
-        height=1000
+        height=100
     >
 
     <h1>Ice Cream Shop Menu</h1>
