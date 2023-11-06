@@ -45,3 +45,8 @@ Send an example email:
 ```sh
     python app/email_service.py
 ```
+
+Run enlarge function:
+```sh
+    python app/my_mod.py
+```
