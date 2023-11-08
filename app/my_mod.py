@@ -15,6 +15,7 @@ def enlarge(n):
     """
     return float(n) * 100
 
+## main conditional removes code from global scope to allow clean imports
 if __name__ == "__main__":
     
 
