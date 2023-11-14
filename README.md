@@ -50,3 +50,8 @@ Run enlarge function:
 ```sh
     python app/my_mod.py
 ```
+
+Run weather function:
+```sh
+    python app/weather.py
+```

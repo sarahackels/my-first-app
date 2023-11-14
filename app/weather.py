@@ -131,6 +131,7 @@ def forecast_demo(zip_code, country_code="US"):
     return HTML(df.to_html(escape=False, formatters=dict(icon=to_image)))
 
 
+## one way that I refactored the function.
 def header():
     print("-----------")
 
@@ -201,6 +202,7 @@ if __name__ == "__main__":
         print(period["shortForecast"], f"{period['temperature']} {DEGREE_SIGN}{period['temperatureUnit']}")
         #print(period["detailedForecast"])
         display(Image(url=period["icon"]))
+    
     my_zip = '20057'
     display_forecast(my_zip)
     forecast_demo("06070")
