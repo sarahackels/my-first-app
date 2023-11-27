@@ -51,6 +51,15 @@ Run enlarge function:
     python app/my_mod.py
 ```
 
+Run stocks report:
+```sh
+    python -m app.stocks
+```
+
+Testing:
+```sh
+    pytest
+```
 ### Web App
 
 Run the web app (then view in the browser at http://localhost:5000/):

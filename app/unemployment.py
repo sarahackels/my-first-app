@@ -1,22 +1,18 @@
 from getpass import getpass
 
 ##imports at the top of the file
-import os
 import json
 from pprint import pprint
 from statistics import mean
 
 import requests
-from dotenv import load_dotenv
 from plotly.express import line
 
 #local imports
 from app.email_service import send_email
+from app.alpha import API_KEY
 
-##env variables and constants go next
-load_dotenv() ## go look in the .env file for any env vars
 
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 
 #functions
 
