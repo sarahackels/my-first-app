@@ -3,7 +3,13 @@ plotly
 pandas
 python-dotenv
 sendgrid==6.5.0
+
+#test
 pytest
+
 pgeocode
 IPython
 flask
+
+#production server needs this to run the web app
+gunicorn
