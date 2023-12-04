@@ -56,6 +56,10 @@ Run stocks report:
 ```sh
     python -m app.stocks
 ```
+Run weather function:
+```sh
+    python app/weather.py
+```
 
 Testing:
 ```sh
@@ -72,11 +76,9 @@ FLASK_APP=web_app flask run
 # Windows OS:
 # ... if `export` doesn't work for you, try `set` instead
 # ... or set FLASK_APP variable via ".env" file
-```sh
-export FLASK_APP=web_app
-flask run
-=======
-Run weather function:
-```sh
-    python app/weather.py
+
+    export FLASK_APP=web_app
+    flask run
 ```
+
+
