@@ -51,7 +51,7 @@ Run enlarge function:
     python app/my_mod.py
 ```
 
-```
+
 Run stocks report:
 ```sh
     python -m app.stocks
